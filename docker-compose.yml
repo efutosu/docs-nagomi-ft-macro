@@ -11,4 +11,4 @@ services:
     tty: true
     restart: always
     ports:
-      - 14321:4321
+      - 4321:4321

@@ -13,4 +13,6 @@ export default defineConfig({
 	markdown: {
 		remarkPlugins: [remarkBreaks],
 	},
+	site: "https://efutosu.github.io",
+	base: "/docs-nagomi-ft-macro",
 });

@@ -1,0 +1,14 @@
+services:
+  docs-nagomi-ft-macro:
+    container_name: docs-nagomi-ft-macro
+    networks:
+      default:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./src:/work
+    tty: true
+    restart: always
+    ports:
+      - 14321:4321
